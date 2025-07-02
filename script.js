@@ -6,17 +6,17 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Quais são as principais características da festa junina",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "músicas e danças tipicas",
+            "Comida tipica"
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Qual a origem da festa junina",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "a festas junina tem suas origens nas celebrações catolicas",
+            "Especialmente na festa de são joão Batista que é uma das principais influencias"
         ]
     },
     {
