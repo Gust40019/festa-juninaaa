@@ -20,24 +20,25 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Onde é mais comum celebrar festta junina",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Nordeste do Brasil",
+            "Em todo país, principalmente em áreas rurais"
+            
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "Qual o significado da festa junina",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "é uma celebração da cultura popular brasileira",
+            "é uma oportunnidade para as pessoas se reunirem"
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Quais são as atrações tipicas da festa junina",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "fogueira e balões",
+            "musica ao vivo dança e outras atividades"
         ]
     }
 ];
