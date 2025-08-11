@@ -2,7 +2,7 @@
     --cor-fundo: #02031e ; 
     --cor-principal: #680704 ;
     --cor-secundaria: #cc6408; 
-    --cor-destaque: #5c0903;
+    --cor-destaque: #090909;
     --cor-texto: #ffffffe7;
 
 }
@@ -23,7 +23,7 @@ body {
     text-align: center;
     padding: 20px;
     border: 2px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 h1{
