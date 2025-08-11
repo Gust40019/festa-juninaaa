@@ -22,7 +22,8 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
-
+    border: 2px;
+    border-radius: 10px;
 }
 
 h1{
