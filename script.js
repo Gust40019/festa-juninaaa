@@ -46,10 +46,14 @@ let atual = 0;
 let perguntaAtual;
 
 function mostraPergunta() {
+    if (atual >= perguntas.length) {
+        mostraResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
-    return
 }
 
 function mostraAlternativas() {
@@ -65,8 +69,6 @@ function respostaSelecionada(opcaoSelecionada){
     atual++;
     mostraPergunta();
 }
-
-mostraPergunta();
 
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
